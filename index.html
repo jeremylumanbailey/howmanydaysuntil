@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>How many days until</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="autocomplete(document.getElementById('myInput'), countries)">
+    <div class="centerContentCol">
+      <div class="centerContentRow">
+        <!--Make sure the form has the autocomplete function switched off:-->
+          <form autocomplete="off">
+            <div class="autocomplete" style="width:300px;">
+              <input id="myInput" type="text" name="myCountry" placeholder="Country">
+            </div>
+          </form>
+      </div>
+        <h1 class="daysLeft">Type in a holiday and click on it :)</h1>
+    </div>
+  </body>
+    <script src="script.js"></script>
+</html>
+<!--  autocomplete(document.getElementById("myInput"), countries); -->
